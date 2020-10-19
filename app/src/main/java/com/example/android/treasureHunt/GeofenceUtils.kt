@@ -55,6 +55,12 @@ internal object GeofencingConstants {
 
     val LANDMARK_DATA = arrayOf(
         LandmarkDataObject(
+            "madrid",
+            R.string.madrid_hint,
+            R.string.madrid_location,
+            LatLng(40.4378698, -3.8196207)),
+
+        LandmarkDataObject(
             "golden_gate_bridge",
             R.string.golden_gate_bridge_hint,
             R.string.golden_gate_bridge_location,
